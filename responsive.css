@@ -1,0 +1,61 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all and (max-width: 1200px){
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media all and (max-width: 991px){
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media all and (max-width: 767px){
+  .logo{
+    padding: 0;
+    text-align: center;
+  }
+
+ 
+  .main-menu li a{
+    padding: 0px;
+    font-size: 14px;
+  }
+
+  .main-menu ul,.footer-area{
+    text-align: center;
+  }
+
+  .big-blog-box .bolg-featured-content {
+    margin-bottom: 30px;
+  }
+
+  .single-blog-item {
+    margin-bottom: 50px;
+  }
+
+  .footer-area li{
+    padding: 10px;
+  }
+
+  .footer-area .text-right{
+    text-align: center;
+  }
+
+  a.load-more-btn {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .text-end{
+    text-align: center !important;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 766px){
+
+
+}

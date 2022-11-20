@@ -1,0 +1,318 @@
+html,body{
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+.stick-area {
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+  padding: 0 50px;
+}
+
+.is-sticky {
+  z-index: 999;
+  position: relative;
+}
+
+.is-stick{
+  position: fixed;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.blog-meta,
+.blog-readmore-btn {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.main-menu li {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 40px 0;
+}
+
+.main-menu li a {
+  display: block;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: #777777;
+  transition: .5s;
+  font-size: 17px;
+}
+
+.main-menu li:hover a {
+  color: #f00;
+  border-bottom: 1px solid #f00;
+}
+
+.logo {
+  padding: 40px 0;
+}
+
+.logo a{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.logo a span{
+  font-size: 40px;
+  font-style: italic;
+}
+
+.bolg-featured-content img {
+  width: 100%;
+}
+
+p.blog-meta {
+  text-transform: uppercase;
+}
+
+.single-blog-item h2 {
+  margin: 20px 0px 25px;
+  color: #626262;
+}
+
+a.blog-readmore-btn {
+  text-transform: uppercase;
+  color: #B4AD9E;
+}
+
+.blog-box-content {
+  margin-bottom: 30px;
+  color: #777777;
+}
+
+.blog-box-content p:last-child {
+  margin: 0;
+}
+
+.bolg-featured-content img {
+  width: 100%;
+}
+
+.single-blog-item {
+  margin-bottom: 120px;
+}
+
+.newsletter-area {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.newsletter-area h2 {
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.newsletter-form {
+  max-width: 360px;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+  position: relative;
+}
+
+.newsletter-form input[type="email"] {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  background-color: #EFEFEF;
+}
+
+.newsletter-form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  padding: 10px;
+}
+
+.newsletter-area {
+  margin-bottom: 120px;
+  background-color: #F0F0F0;
+}
+
+.bolg-featured-content {
+  margin-bottom: 30px;
+}
+
+.big-blog-box .bolg-featured-content {
+  margin-bottom: 100px;
+}
+
+.single-blog-item h2 a {
+  color: #626262;
+}
+
+.single-blog-item p a {
+  color: #B4AD9E;
+}
+
+.first-footer-area {
+  background-color: #1E3C52;
+  padding: 20px;
+}
+
+.text-area {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 11px;
+  color: #FFFFFF;
+}
+
+a.load-more-btn {
+  display: inline-block;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding: 10px 10px;
+  background-color: #FEBD40;
+  color: #000000;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.text {
+  margin: 50px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.last-image-area{
+  padding: 40px 0;
+}
+
+.content {
+  color: #000000;
+  font-weight: 700;
+}
+
+/* footer start 1 */
+
+.footer-bottom-area {
+  margin-top: 30px;
+  background-color: #21211F;
+  padding: 50px;
+}
+
+.footer-wid ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-wid-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.footer-wid p {
+  color: #BBBBBB;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.footer-wid a {
+  color: #BBBBBB;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.footer-logo {
+  background-color: #FFFFFF;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.footer-wid h3 {
+  margin-bottom: 20px;
+}
+
+/* footer end 1 */
+
+
+/* footer start 2 */
+
+.footer-area {
+  padding: 30px 0;
+  background-color: #141412;
+}
+
+.footer-area li {
+  display: inline-block;
+}
+
+.footer-area ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-area li,
+.footer-area a {
+  color: #BBBBBB;
+}
+
+.footer-area a {
+  display: inline-block;
+  margin: 5px;
+  line-height: 5px;
+}
+
+span {
+  font-size: 25px;
+  color: #E0218A;
+}
+
+/* footer end 2 */
+
+/* sticky footer start */
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.site-main-wrapper {
+  /* margin-bottom: 500px; */
+  position: relative;
+  z-index: 9;
+  background-color: #FFFFFF;
+}
+
+/* sticky footer end */
